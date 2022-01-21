@@ -36,17 +36,10 @@ body{
 text-align: center;
 overflow: hidden;
 }
-.qr-code-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-}
+
 .qr-code-img img{
     max-width: 100%;
-    height: auto;
     border-radius: 20px;
-    object-fit: contain;
 }
 .qr-code-content{
     width: 100%;
@@ -68,3 +61,4 @@ overflow: hidden;
     text-align: center;
     margin: 0 auto;
 }
+
