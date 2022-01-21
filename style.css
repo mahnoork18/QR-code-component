@@ -13,7 +13,7 @@
 body{
     min-height: 100vh;
     font-family: 'Outfit', sans-serif;
-    background: var(--Grayish-blue);
+    background: var(--Light-gray);
 }
 .wrapper{
     display: flex;
