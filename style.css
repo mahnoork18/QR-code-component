@@ -43,7 +43,7 @@ overflow: hidden;
     object-fit: contain;
 }
 .qr-code-img img{
-    width: 380px;
+    max-width: 100%;
     height: auto;
     border-radius: 20px;
     object-fit: contain;
@@ -67,15 +67,4 @@ overflow: hidden;
     width: 80%;
     text-align: center;
     margin: 0 auto;
-}
-@media(max-width:768px){
-
-.qr-code-img img{
-    width: 300px;
-}
-.qr-code-content h1{
-    font-size: 1.6rem;
-   
-}
-
 }
